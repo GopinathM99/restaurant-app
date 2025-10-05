@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srinivas Kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="hero" id="home">
+        <nav class="navbar">
+            <div class="logo">Srinivas Kitchen</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="reserve-btn">Reserve a Table</button>
+        </nav>
+
+        <div class="hero-content">
+            <p class="tagline">Authentic Indian Flavors</p>
+            <h1>Welcome to Srinivas Kitchen</h1>
+            <p class="subtitle">
+                Experience the vibrant taste of India crafted with age-old family recipes and a modern twist.
+            </p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn primary">Explore Menu</a>
+                <a href="#contact" class="btn secondary">Visit Us</a>
+            </div>
+        </div>
+
+        <div class="hero-overlay"></div>
+    </header>
+
+    <main>
+        <section class="section" id="story">
+            <div class="section-content">
+                <div class="image-frame">
+                    <img src="https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&w=900&q=80" alt="Indian spices" />
+                </div>
+                <div class="text-block">
+                    <h2>Our Story</h2>
+                    <p>
+                        Srinivas Kitchen is a celebration of India's rich culinary heritage. From the bustling streets of Hyderabad to the aromatic kitchens of Chennai, our menu reflects the diversity of flavors that make Indian cuisine truly enchanting.
+                    </p>
+                    <p>
+                        Each dish is prepared with handpicked ingredients, traditional spices, and heartfelt passion. Whether you crave comfort classics or contemporary delights, we promise a dining experience that feels like home.
+                    </p>
+                    <a href="#menu" class="link">Discover our signature dishes →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section menu" id="menu">
+            <div class="section-header">
+                <h2>Chef's Specials</h2>
+                <p>Handcrafted plates that bring warmth, nostalgia, and joy to every bite.</p>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1000&q=80');"></div>
+                    <div class="menu-info">
+                        <h3>Royal Hyderabadi Biryani</h3>
+                        <p>Aromatic basmati rice layered with tender marinated meat, saffron, and caramelized onions.</p>
+                        <span class="price">₹480</span>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1604908176997-12518821a193?auto=format&fit=crop&w=1000&q=80');"></div>
+                    <div class="menu-info">
+                        <h3>Paneer Tikka Platter</h3>
+                        <p>Char-grilled cottage cheese infused with yogurt, spices, and a hint of smoked mustard.</p>
+                        <span class="price">₹360</span>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1000&q=80');"></div>
+                    <div class="menu-info">
+                        <h3>Malabar Prawn Curry</h3>
+                        <p>Creamy coconut curry simmered with tiger prawns, tempered with curry leaves and mustard seeds.</p>
+                        <span class="price">₹520</span>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1598373182133-52452a1d4a43?auto=format&fit=crop&w=1000&q=80');"></div>
+                    <div class="menu-info">
+                        <h3>Chettinad Pepper Chicken</h3>
+                        <p>Fiery black pepper gravy slow-cooked with succulent chicken and roasted spices.</p>
+                        <span class="price">₹440</span>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1601493700631-2b89b273b1f1?auto=format&fit=crop&w=1000&q=80');"></div>
+                    <div class="menu-info">
+                        <h3>Delhi Street Chaat</h3>
+                        <p>Tangy tamarind chutney, yogurt, and crispy papdi topped with sev and pomegranate pearls.</p>
+                        <span class="price">₹220</span>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&w=1000&q=80');"></div>
+                    <div class="menu-info">
+                        <h3>Masala Dosa Supreme</h3>
+                        <p>Golden dosa filled with spiced potato masala, served with coconut and tomato chutneys.</p>
+                        <span class="price">₹260</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section gallery" id="gallery">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <p>A glimpse into the vibrant world of Srinivas Kitchen.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80" alt="Table setup" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&w=900&q=80" alt="Dessert" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1589308078055-1541dc711a7b?auto=format&fit=crop&w=900&q=80" alt="Curries" /></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Chef plating food" /></div>
+            </div>
+        </section>
+
+        <section class="section testimonials">
+            <div class="section-header">
+                <h2>What Guests Are Saying</h2>
+            </div>
+            <div class="testimonials-grid">
+                <blockquote>
+                    “Every bite transported me back to Chennai. The flavors are bold and beautifully balanced!”
+                    <cite>— Priya N.</cite>
+                </blockquote>
+                <blockquote>
+                    “The ambience, the service, and the food are all impeccable. A must-visit for Indian cuisine lovers.”
+                    <cite>— Rohan S.</cite>
+                </blockquote>
+                <blockquote>
+                    “Authentic recipes with a modern presentation. Srinivas Kitchen has become our favorite spot!”
+                    <cite>— Meera & Ajay</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h2>Visit Srinivas Kitchen</h2>
+                    <p>123 Spice Route, Jubilee Hills, Hyderabad</p>
+                    <p class="contact-details">Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+                    <p class="contact-details">Email: <a href="mailto:hello@srinivaskitchen.in">hello@srinivaskitchen.in</a></p>
+                    <div class="hours">
+                        <h3>Hours</h3>
+                        <p>Mon - Thu: 12:00 PM – 10:00 PM</p>
+                        <p>Fri - Sun: 12:00 PM – 11:30 PM</p>
+                    </div>
+                    <div class="socials">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Zomato</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Book a Table</h3>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" />
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" id="guests" name="guests" min="1" max="12" value="2" />
+                    </div>
+                    <button type="submit" class="btn primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Srinivas Kitchen. Crafted with love in India.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
