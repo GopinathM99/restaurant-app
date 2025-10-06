@@ -62,56 +62,13 @@
                 <h2>Chef's Specials</h2>
                 <p>Handcrafted plates that bring warmth, nostalgia, and joy to every bite.</p>
             </div>
-            <div class="menu-grid">
-                <article class="menu-card">
-                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1000&q=80');"></div>
-                    <div class="menu-info">
-                        <h3>Royal Hyderabadi Biryani</h3>
-                        <p>Aromatic basmati rice layered with tender marinated meat, saffron, and caramelized onions.</p>
-                        <span class="price">₹480</span>
-                    </div>
-                </article>
-                <article class="menu-card">
-                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1604908176997-12518821a193?auto=format&fit=crop&w=1000&q=80');"></div>
-                    <div class="menu-info">
-                        <h3>Paneer Tikka Platter</h3>
-                        <p>Char-grilled cottage cheese infused with yogurt, spices, and a hint of smoked mustard.</p>
-                        <span class="price">₹360</span>
-                    </div>
-                </article>
-                <article class="menu-card">
-                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=1000&q=80');"></div>
-                    <div class="menu-info">
-                        <h3>Malabar Prawn Curry</h3>
-                        <p>Creamy coconut curry simmered with tiger prawns, tempered with curry leaves and mustard seeds.</p>
-                        <span class="price">₹520</span>
-                    </div>
-                </article>
-                <article class="menu-card">
-                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1598373182133-52452a1d4a43?auto=format&fit=crop&w=1000&q=80');"></div>
-                    <div class="menu-info">
-                        <h3>Chettinad Pepper Chicken</h3>
-                        <p>Fiery black pepper gravy slow-cooked with succulent chicken and roasted spices.</p>
-                        <span class="price">₹440</span>
-                    </div>
-                </article>
-                <article class="menu-card">
-                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1601493700631-2b89b273b1f1?auto=format&fit=crop&w=1000&q=80');"></div>
-                    <div class="menu-info">
-                        <h3>Delhi Street Chaat</h3>
-                        <p>Tangy tamarind chutney, yogurt, and crispy papdi topped with sev and pomegranate pearls.</p>
-                        <span class="price">₹220</span>
-                    </div>
-                </article>
-                <article class="menu-card">
-                    <div class="menu-image" style="background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&w=1000&q=80');"></div>
-                    <div class="menu-info">
-                        <h3>Masala Dosa Supreme</h3>
-                        <p>Golden dosa filled with spiced potato masala, served with coconut and tomato chutneys.</p>
-                        <span class="price">₹260</span>
-                    </div>
-                </article>
+            <div class="menu-status" id="menu-status" role="status" aria-live="polite"></div>
+            <div class="menu-grid" id="specials-grid" aria-live="polite"></div>
+            <div class="section-header section-header--sub">
+                <h2>Full Menu</h2>
+                <p>Explore every dish from comforting classics to modern signatures.</p>
             </div>
+            <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
         </section>
 
         <section class="section gallery" id="gallery">
@@ -193,6 +150,6 @@
         <p>© <span id="year"></span> Srinivas Kitchen. Crafted with love in India.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
