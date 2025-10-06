@@ -253,6 +253,26 @@ ul {
     line-height: 1.8;
 }
 
+.section-header--sub {
+    margin-top: 80px;
+    margin-bottom: 42px;
+}
+
+.section-header--sub h2 {
+    font-size: clamp(2.2rem, 4vw, 3rem);
+}
+
+.menu-status {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 36px;
+    font-size: 1rem;
+}
+
+.menu-status--error {
+    color: #f8d7da;
+}
+
 .menu {
     background: radial-gradient(circle at top left, rgba(232, 93, 4, 0.12), transparent 55%),
         radial-gradient(circle at bottom right, rgba(240, 165, 0, 0.1), transparent 60%);
@@ -287,6 +307,10 @@ ul {
     background-position: center;
 }
 
+.menu-image--placeholder {
+    background: linear-gradient(135deg, rgba(232, 93, 4, 0.45), rgba(240, 165, 0, 0.3));
+}
+
 .menu-info {
     padding: 24px;
 }
@@ -301,6 +325,16 @@ ul {
     color: var(--text-muted);
     line-height: 1.7;
     margin-bottom: 18px;
+}
+
+.menu-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-muted);
+    padding: 24px;
+    border-radius: var(--border-radius);
+    background: rgba(248, 245, 242, 0.05);
+    border: 1px dashed rgba(248, 245, 242, 0.12);
 }
 
 .price {
